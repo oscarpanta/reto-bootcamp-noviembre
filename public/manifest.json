@@ -1,0 +1,20 @@
+{
+  "name": "Vite Scrapping - Oscar Panta",
+  "description": "Obtener avisos Vite",
+  "manifest_version": 3,
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.plazavea.com.pe/*"],
+      "js": ["./content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

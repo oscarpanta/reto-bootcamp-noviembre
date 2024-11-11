@@ -1,0 +1,18 @@
+#btn-scrap{
+    background-color: aqua;
+    border-color: blueviolet;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+#btn-productos{
+    background-color: white;
+    border-color: gray;
+    color: black;
+    width: 100%;
+}
+.title_scrapping{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
